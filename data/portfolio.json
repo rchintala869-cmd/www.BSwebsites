@@ -1,0 +1,80 @@
+[
+  {
+    "id": "nexus-saas",
+    "title": "Nexus Cloud SaaS Platform",
+    "category": "Corporate & SaaS",
+    "price": 14000,
+    "rating": 4.9,
+    "reviewsCount": 38,
+    "description": "High-tech dark SaaS landing page featuring live pricing tiers, interactive feature cards, and instant consultation triggers.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
+    "liveDemoUrl": "https://example.com/demo/nexus-saas",
+    "tags": ["Next.js", "Tailwind CSS", "SaaS", "Dark Theme"],
+    "highlights": ["99 Google PageSpeed Score", "Built-in Interactive Calculator", "Instant Lead Capture"]
+  },
+  {
+    "id": "aura-apparel",
+    "title": "Aura Luxury Apparel Boutique",
+    "category": "E-Commerce",
+    "price": 17000,
+    "rating": 5.0,
+    "reviewsCount": 46,
+    "description": "Elegantly curated fashion e-commerce storefront with smooth product swatches, instant cart drawers, and Razorpay checkout.",
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&auto=format&fit=crop&q=80",
+    "liveDemoUrl": "https://example.com/demo/aura-apparel",
+    "tags": ["E-Commerce", "Razorpay", "Product Filters", "Responsive"],
+    "highlights": ["Multi-currency Support", "UPI QR Instant Payments", "Order Notification via WhatsApp"]
+  },
+  {
+    "id": "savorio-bistro",
+    "title": "Savorio Fine Italian Trattoria",
+    "category": "Portfolio & Hospitality",
+    "price": 10000,
+    "rating": 4.8,
+    "reviewsCount": 29,
+    "description": "Mouth-watering restaurant showcase with dynamic digital menus, Google Maps directions, and 1-click WhatsApp table reservations.",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop&q=80",
+    "liveDemoUrl": "https://example.com/demo/savorio-bistro",
+    "tags": ["Restaurant", "QR Menu", "Table Booking", "Single Page"],
+    "highlights": ["Direct WhatsApp Reservations", "PDF / Visual Menu Viewer", "Instagram Reel Embed"]
+  },
+  {
+    "id": "apex-realty",
+    "title": "Apex Prime Real Estate & Villas",
+    "category": "Corporate & Real Estate",
+    "price": 14000,
+    "rating": 4.9,
+    "reviewsCount": 34,
+    "description": "High-end property showcase platform equipped with interactive location maps, floor plans, and automated inquiry capture.",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=80",
+    "liveDemoUrl": "https://example.com/demo/apex-realty",
+    "tags": ["Real Estate", "Lead Capture", "Gallery", "Multi-Page"],
+    "highlights": ["Virtual Tour Embeds", "Mortgage Calculator Widget", "WhatsApp Brochure Delivery"]
+  },
+  {
+    "id": "pulse-athletics",
+    "title": "Pulse 24/7 Fitness & Crossfit Studio",
+    "category": "Portfolio & Health",
+    "price": 10000,
+    "rating": 4.9,
+    "reviewsCount": 24,
+    "description": "High-energy fitness club website with trainer rosters, live batch schedules, membership pricing, and trial pass booking.",
+    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&auto=format&fit=crop&q=80",
+    "liveDemoUrl": "https://example.com/demo/pulse-fitness",
+    "tags": ["Fitness", "Schedule", "Memberships", "Responsive"],
+    "highlights": ["Interactive Schedule Table", "Free Trial Pass Form", "Trainer Video Showcase"]
+  },
+  {
+    "id": "neuro-ai",
+    "title": "NeuroGen AI Prompt Studio",
+    "category": "Custom Web App",
+    "price": 22000,
+    "rating": 5.0,
+    "reviewsCount": 52,
+    "description": "Modern AI-powered SaaS web application with customizable prompts, user token wallets, dark dashboard, and database persistence.",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "liveDemoUrl": "https://example.com/demo/neurogen-ai",
+    "tags": ["AI App", "Auth System", "Admin Panel", "Database"],
+    "highlights": ["Real-time Generation UI", "Customer Credit Billing", "Admin Telemetry Panel"]
+  }
+]

@@ -1,0 +1,16 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Showcase Portfolio websites: Publicly readable so every visitor sees permanent sites
+    match /portfolio_items/{itemId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Customer Leads & Inquiries
+    match /customer_leads/{leadId} {
+      allow read: if true;
+      allow write: if true;
+    }
+  }
+}

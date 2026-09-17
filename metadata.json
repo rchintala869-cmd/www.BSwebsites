@@ -1,0 +1,6 @@
+{
+  "name": "BS Websites",
+  "description": "Custom website creation service by Bhargav, Bhavesh & Siva. Dual Customer & Owner portals, pricing packages, portfolio showcase, and instant WhatsApp booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

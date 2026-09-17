@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "PortfolioItem": {
+      "title": "PortfolioItem",
+      "description": "A website showcase item in the portfolio gallery.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "category": { "type": "string" },
+        "price": { "type": "number" },
+        "rating": { "type": "number" },
+        "reviewsCount": { "type": "number" },
+        "description": { "type": "string" },
+        "image": { "type": "string" },
+        "liveDemoUrl": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "highlights": { "type": "array", "items": { "type": "string" } },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "title", "category", "price", "image", "liveDemoUrl"]
+    },
+    "CustomerLead": {
+      "title": "CustomerLead",
+      "description": "An inquiry, appointment, or order lead from a customer.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "type": { "type": "string" },
+        "targetTitle": { "type": "string" },
+        "price": { "type": "string" },
+        "notes": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "date": { "type": "string" },
+        "time": { "type": "string" }
+      },
+      "required": ["id", "name", "phone", "type", "timestamp"]
+    }
+  },
+  "firestore": {
+    "/portfolio_items/{itemId}": {
+      "schema": "PortfolioItem",
+      "description": "Permanently stored showcase portfolio website items."
+    },
+    "/customer_leads/{leadId}": {
+      "schema": "CustomerLead",
+      "description": "Inquiries, orders, and appointment bookings from clients."
+    }
+  }
+}
